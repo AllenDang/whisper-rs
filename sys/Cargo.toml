@@ -50,7 +50,7 @@ metal = []
 force-debug = []
 
 [build-dependencies]
-cmake = "0.1"
+cmake = { git = "https://github.com/AllenDang/cmake-rs", branch = "master" }
 bindgen = "0.69"
 cfg-if = "1"
 fs_extra = "1.3"
